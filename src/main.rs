@@ -11,5 +11,4 @@ fn main() {
         }
         input.clear();
     }
-    //print!("{}", lines.join(""));
 }
