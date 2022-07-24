@@ -4,7 +4,7 @@
 
 `uni` is a command to make unique text like `uniq` command.
 
-The difference with `uniq` is that it does not require sorting of the input data.
+The difference with `uni` is that it does not require sorting of the input data.
 
 ## How to use
 
