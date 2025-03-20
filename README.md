@@ -4,7 +4,9 @@
 
 `uni` is a command to make unique text like `uniq` command.
 
-The difference with `uni` is that it does not require sorting of the input data.
+The difference from `uniq` is that `uni` does not require sorting of the input data before running commnad.
+
+`uni` can output text in the same order as when you input them.
 
 ## How to use
 
@@ -25,12 +27,23 @@ b
 
 ## How to install
 
-Clone this repository to your computer and make a binary for your OS.
+If you use MacOS with Apple Silicon, you can download a binary from the Github.
+
+https://github.com/mitsutoshi/uni/releases
+
+Or you can get it by using Homebrew.
+
+```sh
+brew tap mitsutoshi/uni
+brew install mitsutoshi/uni/uni
+```
+
+If you use other OS, please clone this repository to your computer and make a binary for your OS.
 
 ## Note
 
-`awk` can do the same. 😉
+`awk` can do the same thing. 😉
 
 ```sh
-cat text | '!a[$0]++{print}'
+cat text | awk '!a[$0]++{print}'
 ```
